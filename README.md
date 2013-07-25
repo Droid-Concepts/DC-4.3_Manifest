@@ -1,7 +1,12 @@
-DROID CONCEPTS AOSP 4.3
-=======================
+DROID CONCEPTS
+==============
 
-Sync:
+DROID CONCEPTS - DEMENTED AOSP 4.3
 
-  repo init -u git://github.com/Droid-Concepts/DC_4.3 -b dc43
+Sync and Build:
+===============
+
+In terminal enter:
+
+    {X} repo init -u git://github.com/Droid-Concepts/DC_4.3 -b dc43
 

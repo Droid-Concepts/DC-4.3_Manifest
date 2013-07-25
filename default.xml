@@ -23,7 +23,7 @@
 	   sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="android_build" remote="dc" revision="43" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -234,6 +234,11 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
+
+ <!-- Koush Superuser -->
+  <project path="external/koush/Superuser" name="koush_Superuser" remote="davros" revision="jb422" />
+  <project path="external/koush/Widgets" name="koush_Widgets" remote="davros" revision="jb422" />
+
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="dc" revision="43" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />

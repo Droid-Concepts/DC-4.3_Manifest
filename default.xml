@@ -71,7 +71,7 @@
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-10.2" />
   <project path="external/bison" name="android_external_bison" remote="cm" revision="cm-10.2" />
   <project path="external/blktrace" name="android_external_blktrace" remote="cm" revision="cm-10.2" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="cm" revision="cm-10.2" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cm" revision="cm-10.2" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="cm" revision="cm-10.2" />
   <project path="external/bsdiff" name="android_external_bsdiff" remote="cm" revision="cm-10.2" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.2" />

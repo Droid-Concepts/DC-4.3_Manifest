@@ -9,6 +9,9 @@
            fetch="https://github.com/" 
            review="review.cyanogenmod.com" />
 
+   <remote name="cp"
+           fetch="https://github.com/cphelps76/" />
+
    <remote name="dc"
            fetch="https://github.com/Droid-Concepts/" />
 
@@ -307,10 +310,11 @@
 
   <!-- Kernel Sources -->
   <project path="kernel/asus/grouper" name="DEMENTEDConcepts_kernel_grouper" remote="dc" revision="dc43" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cphelps76" revision="db42" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cp" revision="db42" />
+  <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/n8013" name="DEMENTEDConcepts_kernel_n8013" remote="dc" revision="dc43" />
   <project path="kernel/samsung/jf" name="DEMENTEDConcepts_kernel_jf" remote="dc" revision="dc43" />
-  <project path="kernel/samsung/tuna" name="elite_kernel_tuna" remote="cphelps76" revision="db42" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />
 
   <!-- Things and Stuff -->
   <project path="cts" name="platform/cts" groups="cts"/>
@@ -448,7 +452,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-<!-- Vendor Packages -->
+  <!-- Vendor Packages -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-10.1" />
   <project path="vendor/Droid_Concepts" name="vendor_Droid_Concepts" remote="dc" revision="dc43" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.1" />

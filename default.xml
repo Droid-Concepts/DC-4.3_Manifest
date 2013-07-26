@@ -2,25 +2,24 @@
 <manifest>
 
    <remote name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/" />
 
    <remote name="cm"
-           fetch="https://github.com/CyanogenMod/" 
-           review="review.cyanogenmod.com" />
+           fetch="git://github.com/CyanogenMod/" />
 
    <remote name="cp"
-           fetch="https://github.com/cphelps76/" />
+           fetch="git://github.com/cphelps76/" />
 
    <remote name="dc"
-           fetch="https://github.com/Droid-Concepts/" />
+           fetch="git://github.com/Droid-Concepts/" />
 
    <remote name="tm"
-           fetch="https://github.com/TheMuppets/" />
+           fetch="git://github.com/TheMuppets/" />
 
    <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-j="8" />
 
   <project path="build" name="android_build" remote="dc" revision="dc43" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -53,7 +52,7 @@
   <project path="device/samsung/jfltetmo" name="device_samsung_jfltetmo" remote="dc" revision="dc43" />
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="dc" revision="dc43" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/manta" name="android_device_samsung_maguro_manta" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-common" name="samsung_smdk4412-common" remote="dc" revision="dc43" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="cm" revision="cm-10.2" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="cm" revision="cm-10.2" />
@@ -317,7 +316,6 @@
 
   <!-- Things and Stuff -->
   <project path="cts" name="platform/cts" groups="cts"/>
-  <project path="gdk" name="platform/gdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
@@ -456,9 +454,8 @@
   <project path="vendor/Droid_Concepts" name="vendor_Droid_Concepts" remote="dc" revision="dc43" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.1" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.1" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
 
 </manifest>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
+   <remote name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
@@ -18,7 +18,7 @@
    <remote name="tm"
            fetch="https://github.com/TheMuppets/" />
 
-  <default revision="refs/tags/android-4.3_r2.1"
+   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
 
@@ -396,7 +396,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" revision="cm-10.2" />
 
   <!-- prebuilts -->
-  <project path="prebuilt" name="android_prebuilt" />
+  <project path="prebuilt" name="android_prebuilt"  remote="cm" revision="cm-10.2" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />

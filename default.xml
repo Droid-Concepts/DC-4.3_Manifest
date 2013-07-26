@@ -30,8 +30,8 @@
   <project path="DC-4.3" name="DC-4.3_Manifest" />
 
   <!-- Here We Go -->
-  <project path="abi/cpp" name="android_abi_cpp" groups="pdk" remote="cm" revision="cm-10.2" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="cm" revision="cm-10.2" />
+  <project path="abi/cpp" name="android_abi_cpp" remote="cm" revision="cm-10.2" />
+  <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.2" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.2" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.2" />
   <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.2" />

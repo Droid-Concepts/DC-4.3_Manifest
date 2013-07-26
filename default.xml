@@ -254,7 +254,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="dc" revision="dc43" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" revision="cm-10.2" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" groups="pdk" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cm" revision="cm-10.2" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="cm" revision="cm-10.2" />
   <project path="frameworks/mff" name="android_frameworks_mff" remote="cm" revision="cm-10.2" />
   <project path="frameworks/ml" name="android_frameworks_ml" remote="cm" revision="cm-10.2" />

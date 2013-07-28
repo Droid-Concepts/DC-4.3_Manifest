@@ -323,7 +323,7 @@
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cp" revision="db42" />
   <project path="kernel/samsung/manta" name="android_kernel_samsung_manta" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/n8013" name="DEMENTEDConcepts_kernel_n8013" remote="dc" revision="dc43" />
-  <project path="kernel/samsung/jf" name="DEMENTEDConcepts_kernel_jf" remote="dc" revision="dc43" />
+  <project path="kernel/samsung/jf" name="kernel_samsung_jf" remote="dc" revision="dc43" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />
 
   <!-- Things and Stuff -->

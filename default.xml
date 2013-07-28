@@ -66,8 +66,8 @@
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/manta" name="android_device_samsung_manta" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-common" name="samsung_smdk4412-common" remote="dc" revision="dc43" />
-  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="cm" revision="cm-10.2" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="dc" revision="dc43" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="dc" revision="dc43" />
 
   <!-- External Packages -->
   <project path="external/aac" name="android_external_aac" remote="cm" revision="cm-10.2" />

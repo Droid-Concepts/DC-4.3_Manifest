@@ -25,7 +25,10 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="DC-4.3" name="DC-4.3_Manifest" remote="dc" revision="dc43" />
+  <!-- First lets copy the toolchains, tools, README, and the build script -->
+  <project path=".DC-4.3_Manifest" name="DC-4.3_Manifest" >
+    <copyfile src="README.md" dest="README.md" />
+  </project>
 
   <!-- Here We Go -->
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" revision="cm-10.2" />

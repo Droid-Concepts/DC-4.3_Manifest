@@ -29,7 +29,7 @@
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" revision="cm-10.2" />
   <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.2" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.2" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="dc" revision="dc43" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.2" />
   <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.2" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />

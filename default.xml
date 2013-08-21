@@ -6,14 +6,14 @@
            review="https://android-review.googlesource.com/"/> 
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod" 
+           fetch="git://github.com/CyanogenMod" 
 	   review="review.cyanogenmod.com" />
 
   <remote  name="dc"
-           fetch="https://github.com/Droid-Concepts/" />
+           fetch="git://github.com/Droid-Concepts/" />
 
   <remote  name="tm"
-           fetch="https://github.com/TheMuppets/" />
+           fetch="git://github.com/TheMuppets/" />
            
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"

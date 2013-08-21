@@ -9,7 +9,7 @@
            fetch="https://github.com/CyanogenMod" />
 
   <remote  name="dc"
-           fetch="git://github.com/Droid-Concepts/" />
+           fetch="https://github.com/Droid-Concepts/" />
 
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />

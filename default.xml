@@ -58,6 +58,8 @@
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="dc" revision="dc43-a" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="dc" revision="dc43" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="cm" revision="cm-10.2" />
+  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="dc" revision="dc43" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="dc" revision="dc43" />
 
   <!-- External Packages -->
   <project path="external/aac" name="android_external_aac" remote="cm" revision="cm-10.2" />
@@ -308,7 +310,8 @@
   <!-- Kernel Sources -->
   <project path="kernel/samsung/jf" name="DC-Elite_kernel_jf" remote="dc" revision="dc43" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />
-
+  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-10.2" />  
+  
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="koush_Superuser" remote="dc" revision="dc43" />
   <project path="external/koush/Widgets" name="koush_Widgets" remote="dc" revision="dc43" />
@@ -453,5 +456,6 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
 
 </manifest>

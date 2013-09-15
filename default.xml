@@ -61,7 +61,9 @@
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="dc" revision="dc43" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="dc" revision="dc43" />
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="dc" revision="dc43" />
-
+  <project path="device/motorola/omap4-common" name="android_device_motorola_omap4-common" remote="dc" revision="dc43" />
+  <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="dc" revision="dc43" />  
+  
   <!-- External Packages -->
   <project path="external/aac" name="android_external_aac" remote="cm" revision="cm-10.2" />
   <project path="external/android-clat" name="android_external_android-clat" remote="cm" revision="cm-10.2" />
@@ -304,14 +306,15 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" />
   <project path="hardware/samsung" name="hardware_samsung" remote="dc" revision="dc43" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.2" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
 
   <!-- Kernel Sources -->
   <project path="kernel/samsung/jf" name="DC-Elite_kernel_jf" remote="dc" revision="dc43" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-10.2" />  
+  <project path="kernel/motorola/omap4-common" name="android_kernel_motorola_omap4-common" remote="cm" revision="cm-10.2" />
   
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="koush_Superuser" remote="dc" revision="dc43" />

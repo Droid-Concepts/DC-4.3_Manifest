@@ -8,5 +8,5 @@ Sync and Build:
 
 In terminal enter:
 
-    {X} repo init -u git://github.com/Droid-Concepts/DC-4.3_Manifest -b dc43
+    {X} repo init -u git://github.com/Droid-Concepts/DC-4.3_Manifest -b dc43-b
 

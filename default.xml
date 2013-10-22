@@ -66,7 +66,8 @@
   <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="dc" revision="dc43" />
   <project path="device/motorola/omap4-common" name="android_device_motorola_omap4-common" remote="dc" revision="dc43" />
   <project path="device/motorola/spyder" name="android_device_motorola_spyder" remote="dc" revision="dc43" />
-  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="dc" revision="dc43" />   
+  <project path="device/lge/vs980" name="android_device_lge_vs980" remote="dc" revision="dc43" />
+  <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="dc" revision="dc43" />   
   
   <!-- External Packages -->
   <project path="external/aac" name="android_external_aac" remote="cm" revision="cm-10.2" />
@@ -318,7 +319,7 @@
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="cm" revision="cm-10.2" />  
   <project path="kernel/motorola/omap4-common" name="android_kernel_motorola_omap4-common" remote="cm" revision="cm-10.2" />
-  <project path="kernel/lge/g2" name="android_kernel_lge_f320k" remote="dc" revision="dc43" />
+  <project path="kernel/lge/msm8974" name="android_kernel_lge_msm8974" remote="cm" revision="cm-10.2" />
 
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="koush_Superuser" remote="dc" revision="dc43" />
